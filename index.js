@@ -60,8 +60,8 @@ function startQuiz() {
     addends1 = Math.floor(Math.random() * (10 + 10)) - 10;
     addends2 = Math.floor(Math.random() * (10 + 10)) - 10;
     
-    document.getElementById('addends1').textContent = addends1 < 0 ? addends1 : "-" + addends1;
-    document.getElementById('addends2').textContent = addends2 < 0 ? addends2 : "-" + addends2;
+    document.getElementById('addends1').textContent = addends1 < 0 ? addends1 : "+" + addends1;
+    document.getElementById('addends2').textContent = addends2 < 0 ? addends2 : "+" + addends2;
 }
 
 function submitAnswer() {
